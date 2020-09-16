@@ -1,0 +1,44 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #2196F3;
+    padding: 20px 0;
+    box-shadow: 0 10px 5px 0 rgba(50, 50, 50, 0.3);
+}
+
+.header h3 {
+    color: white;
+    font-size: 26px;
+    margin: 0;
+}
+
+.search {
+    margin-top: 30px;
+    position: relative;
+}
+
+.field {
+    padding: 15px;
+    width: 400px;
+}
+
+.link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.modal {
+    background: #2196F3;
+    position: absolute;
+    width: 500px;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
