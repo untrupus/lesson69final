@@ -10,7 +10,7 @@ const initialState = {
         network: {name: '', country: {name: ''}},
         genres: [],
         runtime: '',
-        image: {original: ''}
+        image: {}
     }
 };
 
@@ -49,7 +49,7 @@ const Show = props => {
     }
 
     return (
-        <div className="container show">
+        <>
             <h3>{state.show.name}</h3>
             <div className="showInfo">
                 <div className="showDescription inner">
@@ -69,7 +69,7 @@ const Show = props => {
                     {summary}
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
