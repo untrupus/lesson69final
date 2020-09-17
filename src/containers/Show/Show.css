@@ -1,0 +1,21 @@
+.show h3 {
+    font-size: 30px;
+}
+
+.inner {
+    width: 47%;
+}
+
+.showInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showAbout span {
+    font-weight: bold;
+}
+
+.image {
+    width: 400px;
+    height: auto;
+}
