@@ -60,8 +60,6 @@ const Show = props => {
                 </div>
                 <div className="showAbout inner">
                     <p><span>Type:</span> {state.show.type}</p>
-                    <p><span>Network:</span> {state.show.network.name}</p>
-                    <p><span>Country:</span> {state.show.network.country.name}</p>
                     <p><span>Language:</span> {state.show.language}</p>
                     <p><span>Status:</span> {state.show.status}</p>
                     <p><span>Runtime:</span> {state.show.runtime}</p>
